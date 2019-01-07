@@ -1,0 +1,26 @@
+.title{
+	width: 100vw - 20px; /*Makes the width of the box fill the whole screen, no matter what size. The 20px corrects for automatic padding*/
+	border: 5px #000000 solid; /*Gives a thick black border around the title*/
+	font-size: 10vw; /*Scales font size depending on the screen width*/
+	text-align: center;
+	margin-bottom: 30px; /*Gives some distance from the title and the boxes below*/
+}
+
+.column1 {
+	display: flex; /*This defines a flex container*/
+	/*flex-direction: column; /*Makes this container a column, not a row*/
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start; /*Makes every box stick to the top*/
+	color: black;  
+	padding: 10px; /*Adds 10 pixels of padding around the whole container*/
+}
+
+.boxStyle {
+	border: 1px #000000 solid; /*This adds a 1 pixel solid black border around each box*/
+	padding-left: 10px; /*Adds some side padding so the text doesn't touch the border*/
+	padding-right: 10px;
+	margin: 10px; /*Adds 10 pixels around each box so they are not touching*/
+	width: 30vw; /*Gives a width for each box 30% of the screen width*/
+}
+
